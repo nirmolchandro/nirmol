@@ -1,0 +1,66 @@
+body{
+    background: azure;
+}
+.monir{
+    background-color: green;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    
+}
+#monir{
+    width: 150px;
+    height: 150px;
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 30%;
+    right: 40%;
+
+}
+.man{
+    width: 200px;
+    height: 200px;
+    background: chartreuse;
+    bottom: 70%;
+    right: 20%;
+    border-radius: 80%;
+}
+.ma{
+    width: 130px;
+    height: 130px;
+    background: rgb(0, 217, 255);
+    margin: 7% 82%;
+    border-radius: 100%;
+}
+.fb{
+    width: 200px;
+    position: fixed;
+    right: -130px;
+    top: 300px;
+    transition: 1s;
+}
+.fb:hover{
+    right: -1px;
+    cursor: pointer;
+}
+.icon{
+    width: 80%;
+    height: 200px;
+    background-color: gold;
+    right: 0px;
+    margin: 80px;
+
+}
+.twiter{
+     width: 200px;
+    position: fixed;
+    right: -130px;
+    top: 100px;
+    transition: 1s;
+
+}
+.twiter:hover{
+    right: -1px;
+    cursor: pointer;
+}
